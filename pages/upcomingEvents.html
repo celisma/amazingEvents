@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upcomming Events</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/png" href="../img/iconAmazingEvents.ico">
+</head>
+<body class="container-fluid">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light d-flex m-1 bg-secondary">
+      <div class="container-fluid bg-secondary">
+        <div class="flex-direction: start m-2">
+          <a class="navbar-brand" href="../index.html"><img style="height:35px" src="../img/logoAmazingEvents.png" alt="Logo"></a>
+        </div>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" d-flex justify-content-around  text-center">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active border border-dark m-3 p-2 bg-light" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active border border-dark m-3 p-2 bg-light" href="../pages/upcomingEvents.html">Upcomming Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active border border-dark m-3 p-2 bg-light" href="../pages/pastEvents.html">Past Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active border border-dark m-3 p-2 bg-light" href="../pages/contact.html">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active border border-dark m-3 p-2 bg-light" href="../pages/stats.html">Stats</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div>
+      <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+        <div class="carousel-inner text-center fondo-carousel">
+          <div class="carousel-item active">
+            <a href="../index.html">Home</a>
+          </div>
+          <div class="carousel-item">
+            <a href="./upcomingEvents.html">Upcomming Events</a>
+          </div>
+          <div class="carousel-item">
+            <a href="./upcomingEvents.html">Past Events</a>
+          </div>
+          <div class="carousel-item">
+            <a href="./contact.html">Contact</a>
+          </div>
+          <div class="carousel-item">
+            <a href="./stats.html">Stats</a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- cuerpo -->
+    <div class=" mt-2 ">
+      <!-- checks -->
+      <div class=" d-flex justify-content-around flex-column flex-md-row">
+        <div class="form-check">
+          <input class="form-check-input border-dark" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            category 1
+          </label>
+        </div>
+        <div class="form-check d-flex">
+          <input class="form-check-input border-dark" type="checkbox" value="check1" id="check1">
+          <label class="form-check-label" for="check1">
+            category 2
+          </label>
+        </div>
+        <div class="form-check d-flex">
+          <input class="form-check-input border-dark" type="checkbox" value="check2" id="check2">
+          <label class="form-check-label" for="check2">
+            category 3
+          </label>
+        </div>
+        <div class="form-check d-flex">
+          <input class="form-check-input border-dark" type="checkbox" value="check3" id="check3">
+          <label class="form-check-label" for="check3">
+            category 4
+          </label>
+        </div>
+        <div class="form-check d-flex">
+          <input class="form-check-input border-dark" type="checkbox" value="check4" id="check4">
+          <label class="form-check-label" for="check4">
+            category 5
+          </label>
+        </div>
+        <form class="d-flex">
+          <input class="form me-2" type="search" >
+          <button class=" border-dark " type="submit"><img src="../img/iconlupa.ico" alt="buscar" width="20" height="20"></button>
+        </form>
+      </div>
+    </div>
+      <!-- Card -->
+    <div class="d-flex flex-direction-row justify-content-around mt-5 flex-column flex-md-row">
+      <div>
+        <div class="card d-flex col-md-6 col-xs-12" style="width: 14rem;">
+          <img src="../img/Marathon.jpg" class="card-img-top" alt="marathon">
+          <div class="card-body">
+            <h5 class="card-title">Marathon</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="d-flex justify-content-around">
+              <p>Precio: $ 1000</p>
+              <a href="#" class="btn btn-primary">Details</a>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div>
+        <div class="card d-flex col-md-6 col-sm-12" style="width: 14rem;">
+          <img src="../img/Costume_Party.jpg" class="card-img-top" alt="party">
+          <div class="card-body">
+            <h5 class="card-title">Costume Party</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="d-flex justify-content-around">
+              <p>Precio: $ 1150</p>
+              <a href="#" class="btn btn-primary">Details</a>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div>
+        <div class="card d-flex col-md-6 col-sm-12" style="width: 14rem;">
+          <img src="../img/Food_Fair.jpg" class="card-img-top" alt="food">
+          <div class="card-body">
+            <h5 class="card-title">Food Fair</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="d-flex justify-content-around">
+              <p>Precio: $ 1200</p>
+              <a href="#" class="btn btn-primary">Details</a>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div>
+        <div class="card d-flex col-md-6 col-sm-12" style="width: 14rem;">
+          <img src="../img/Museum_Tour.jpg" class="card-img-top" alt="museum_tour">
+          <div class="card-body">
+            <h5 class="card-title">Museum_Tour</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="d-flex justify-content-around">
+              <p>Precio: $ 1500</p>
+              <a href="#" class="btn btn-primary">Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </main> 
+  <footer class="container-fluid d-flex justify-content-between mt-5 mb- flex-start flex-md-row pt-3">
+    <div class=" d-flex justify-content-around" id="redes">
+      <a href="#"><img src="../img/instagram.png" alt="instagram" width="20" height="20"></a>
+      <a href="#"><img src="../img/facebook.png" alt="facebook" width="20" height="20"></a>
+      <a href="#"><img src="../img/whsap.png" alt="whatsap" width="20" height="20"></a>
+    </div>
+    <div class="d-flex flex-direction-end me-3">
+      <p><b>FE04-TN</b></p>
+    </div>
+    
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

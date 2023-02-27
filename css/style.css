@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#redes{
+  width:300px;
+}
+
+.fondo-carousel{
+  height: 50px;
+  background-color: rgb(211, 208, 208);
+  font-size: xx-large;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+footer{
+  height: 50px;
+  background-color: rgb(211, 208, 208);
+}
+
+#cards_container img{
+  height: 35vh;
+  width: 100%;
+  object-fit: cover;
+}
